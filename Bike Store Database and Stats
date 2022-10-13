@@ -44,7 +44,7 @@ ORDER BY price desc;
 
 --what is the avg price of items? 
 SELECT AVG(price) "price"
-FROM BikeStore
+FROM BikeStore;
 
 --what are the most 3 popular items? 
 SELECT item, price, popularity
